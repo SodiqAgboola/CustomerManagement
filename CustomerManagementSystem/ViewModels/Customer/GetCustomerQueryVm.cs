@@ -15,7 +15,7 @@ namespace CustomerManagementSystem.ViewModels.Customer
         public string Password { get; set; }
         public string StateOfResidence { get; set; }
         public string LGA { get; set; }
-        public bool PhoneNumberVerified { get; set; }
+        public bool? PhoneNumberVerified { get; set; }
         public DateTime? FromDate { get; set; }
         public DateTime? ToDate { get; set; }
     }

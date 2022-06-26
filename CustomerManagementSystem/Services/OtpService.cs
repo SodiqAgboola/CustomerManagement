@@ -144,7 +144,7 @@ namespace CustomerManagementSystem.Services
                 }
 
                 //check if otp hasnt expired
-                if (DateTime.Today > otpValid.OtpExpiryDate)
+                if (DateTime.Now > otpValid.OtpExpiryDate)
                 {
                     _logger.LogError($"otp expired. phoneNum: {model.PhoneNumber} - otp: {model.Otp} ");
 

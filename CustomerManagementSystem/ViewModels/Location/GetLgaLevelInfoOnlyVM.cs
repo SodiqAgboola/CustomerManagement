@@ -7,6 +7,7 @@ namespace CustomerManagementSystem.ViewModels.Location
 {
     public class GetLgaLevelInfoOnlyVM
     {
-
+        public string LgaName { get; set; }
+        public string LgaCode { get; set; }
     }
 }
